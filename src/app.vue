@@ -1,5 +1,12 @@
-<style scoped>
-
+<style lang="scss" scoped>
+  .selector {
+    margin: 0 auto;
+    width: 150px; /*px*/
+    height: 64px; /*px*/
+    font-size: 28px; /*px*/
+    border: 1px solid #ddd; /*no*/
+    background-color: red;
+  }
 </style>
 
 <template>
@@ -7,6 +14,7 @@
         <router-view></router-view>
         <!-- demo -->
         <h1>Hello , World!</h1>
+        <div class="selector">1</div>
     </section>
 </template>
 
