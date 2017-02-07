@@ -1,0 +1,32 @@
+/**
+ * [一元购] 首页的商品列表 author: dreamapple
+ *
+ * @url /home_goods_list
+ *
+ * 请求参数说明：
+ * type: 请求的商品类型: all->表示所有商品; one->表示一元夺宝; ten->表示分区夺宝
+ * page: 表示请求的哪一页,分页使用
+ *
+ * 返还的数据
+ * goodsName: 商品名称
+ * imgUrl: 图片的地址
+ * id: 商品的ID
+ * totalNum: 购买总共需要的人次
+ * leftNum: 商品剩余的需要购买的人次
+ * isSubarea: 是否是分区的商品
+ *
+ */
+
+{
+  "code":10000,
+  "result|6-10":[
+    {
+      "goodsName": "移动50元充值卡",
+      "imgUrl":"/static/images/goods-1.jpg",
+      "id":234,
+      "totalNum":999,
+      "leftNum":"234",
+      "isSubarea":1
+    }
+  ]
+}

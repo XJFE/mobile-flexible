@@ -1,0 +1,177 @@
+/**
+ * [淘游助手] 用户排行榜
+ * 我的游戏页面、我的淘游页面中使用、需要分页
+ *
+ * @url /taodou-match
+ *
+ * 参数说明：
+ * taodou: 我的淘豆数量
+ * adImgUrl: 广告的图片地址
+ * adLinkUrl: 点击广告的地址
+ * status: 比赛是否在进行中 1是 0成绩结算中
+ * time: 比赛还剩下的时间 秒数
+ * gameName: 游戏名字
+ * gameTermId: 游戏期数
+ * gameType: 游戏类型
+ * gameInfo: 游戏描述
+ * userStatus: 用户是否参与 0:没有 1:参与
+ * userGet: 用户可以获得的淘豆
+ * currentRank: 用户的排名 没有的话为 null
+ * gameIcon: 游戏的图标
+ *
+ * gameUrl: 玩游戏的地址
+ *
+ * username: 万家姓名
+ * score: 玩家分数
+ * taodou: 玩家获得淘豆数量
+ * timestamp: 时间戳
+ *
+ */
+
+{
+  "code": 10000,
+  "result": {
+    "taodou": 99999,
+    "adImgUrl": "/",
+    "adLinkUrl": "",
+    "normalGamesStatus": {
+      "status": 1,
+      "lastTime": 12
+    },
+    "quickGamesStatus": {
+      "status": 2,
+      "lastTime": 10
+    },
+    "normalGames": [
+      {
+        "gameName": "cccc",
+        "gameTermId": "123456",
+        "gameType":"角色扮演",
+        "gameInfo": "部落冲突。。",
+        "userStatus": 1,
+        "userGet": 2345,
+        "currentRank": null,
+        "gameIcon": "http://image.lly800.com/goods/20161202/1480672716455225.jpg",
+        "gameUrl": "/",
+        "players": [
+          {
+            "username": "xsssssx",
+            "score": 123,
+            "taodou": 2345,
+            "timestamp": ""
+          }
+        ]
+      },
+      {
+        "gameName": "cccc",
+        "gameTermId": "123456",
+        "gameType":"角色扮演",
+        "gameInfo": "部落冲突。。",
+        "userStatus": 0,
+        "userGet": 2345,
+        "currentRank": 0,
+        "gameIcon": "http://image.lly800.com/goods/20161202/1480672716455225.jpg",
+        "gameUrl": "/",
+        "players": [
+          {
+            "username": "xx",
+            "score": 123,
+            "taodou": 2345,
+            "timestamp": ""
+          }
+        ]
+      },
+      {
+        "gameName": "cccc",
+        "gameTermId": "123456",
+        "gameType":"角色扮演",
+        "gameInfo": "部落冲突。。",
+        "userStatus": 0,
+        "userGet": 2345,
+        "currentRank": null,
+        "gameIcon": "http://image.lly800.com/goods/20161202/1480672716455225.jpg",
+        "gameUrl": "/",
+        "players": [
+          {
+            "username": "xx",
+            "score": 123,
+            "taodou": 2345,
+            "timestamp": ""
+          }
+        ]
+      }
+    ],
+    "quickGames": [
+      {
+        "gameName": "cccc",
+        "gameTermId": "123456",
+        "gameType":"角色扮演",
+        "gameInfo": "部落冲突。。",
+        "userStatus": 0,
+        "userGet": 2345,
+        "currentRank": null,
+        "gameIcon":"http://image.lly800.com/goods/20161202/1480672716455225.jpg",
+        "players": [
+          {
+            "username": "xasasasx",
+            "score": 123,
+            "taodou": 2345,
+            "timestamp": "2016-06-10 12:12:12"
+          },
+          {
+            "username": "xasasasx",
+            "score": 123,
+            "taodou": 2345,
+            "timestamp": "2016-06-10 12:12:12"
+          }
+        ]
+      },
+      {
+        "gameName": "cccc",
+        "gameTermId": "123456",
+        "gameType":"角色扮演",
+        "gameInfo": "部落冲突。。",
+        "userStatus": 1,
+        "userGet": 2345,
+        "currentRank": 23,
+        "gameIcon": "http://image.lly800.com/goods/20161202/1480672716455225.jpg",
+        "players": [
+          {
+            "username": "xx",
+            "score": 123,
+            "taodou": 2345,
+            "timestamp": ""
+          }
+        ]
+      },
+      {
+        "gameName": "cccc",
+        "gameTermId": "123456",
+        "gameType":"角色扮演",
+        "gameInfo": "部落冲突。。",
+        "userStatus": 0,
+        "userGet": 2345,
+        "currentRank": 0,
+        "gameIcon": "http://image.lly800.com/goods/20161202/1480672716455225.jpg",
+        "players": [
+          {
+            "username": "xx",
+            "score": 123,
+            "taodou": 2345,
+            "timestamp": ""
+          }
+        ]
+      },
+      {
+        "gameName": "cccc",
+        "gameTermId": "123456",
+        "gameType":"角色扮演",
+        "gameInfo": "部落冲突。。",
+        "userStatus": 0,
+        "userGet": 2345,
+        "currentRank": null,
+        "gameIcon": "http://image.lly800.com/goods/20161202/1480672716455225.jpg"
+      }
+    ]
+  }
+}

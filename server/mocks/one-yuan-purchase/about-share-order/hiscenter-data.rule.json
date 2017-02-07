@@ -1,0 +1,175 @@
+/**
+ * 删除地址接口
+ *
+ * @url /hiscenter_data
+ *
+ * 返回结果：
+ * 说明字段:他的个人中心记录数据
+ * avator:用户头像地址 str
+ * userId:用户id str
+ * userName:用户名
+ *
+ * snatch_record:
+ * 说明:夺宝记录数据列
+ * goodsId:商品id int
+ * goodsType:0普通商品 1分区商品 int
+ * goodsInfo:商品描述
+ * goodsImg:商品图片地址 str
+ * nums:期号 str
+ * joinNum:目前参与人次 int
+ * isLottery:这个人是否中奖0没有，1中了  int
+ * needAll:总共需要多少人次 int
+ * needSurplus:还剩余多少人次 int
+ * getter:获奖者用户名称 str
+ * getterJoin:该获奖者参与了多少次 int
+ * isHis:是否是这个人中奖了
+ * goodsNextId:下一期的商品id
+ *
+ * lucky_record:
+ * 说明:幸运记录列表
+
+ * share_record:
+ * 说明:分享记录列表数据
+ * shareId:晒单分享数据的id 用于进入晒单的详情 int
+ * isToday:分享的时间是否是今天0不是，1是 int
+ * dateMonth:分享时间的月份 int
+ * dateDay:分享时间的天 int
+ * shareTitle:分享标题 str
+ * shareGoodsInfo:分享的商品信息 str
+ * nums:期号 str
+ * shareTxt:分享文案内容 str
+ * shareImgList:分享的图片列表一个数组，每个元素就是图片地址  arry
+ * isPraise:当前人员是否点过赞 0没有 1点过  int
+ * praiseNum:点赞数量 int
+ */
+{
+	"code":10000,
+	"result":{
+		"avatar":"http://placehold.it/40x40",
+		"username":"他的用户名",
+		"userId":"69828341",
+		"list":[{
+			"goodsId":1,
+			"goodsImg":"http://placehold.it/92x92",
+			"goodsType":0,
+			"goodsInfo":"华为 HUAWEI | Mate8 4G手机双卡双待全网通高配（4GRAM+64GROM）",
+			"nums":"30504587128",
+			"joinNum":5,
+			"isLottery":0,
+			"needAll":6420,
+			"needSurplus":4320,
+			"getter":"没有中",
+			"getterJoin":0,
+			"isHis":0,
+			"goodsNextId":10
+		}],
+		"snatch_record":[{
+			"goodsId":1,
+			"goodsImg":"http://placehold.it/92x92",
+			"goodsType":0,
+			"goodsInfo":"华为 HUAWEI | Mate8 4G手机双卡双待全网通高配（4GRAM+64GROM）",
+			"nums":"30504587128",
+			"joinNum":5,
+			"isLottery":0,
+			"needAll":6420,
+			"needSurplus":4320,
+			"getter":"没有中",
+			"getterJoin":0,
+			"isHis":0,
+			"goodsNextId":10
+		},{
+			"goodsId":2,
+			"goodsImg":"http://placehold.it/92x92",
+			"goodsType":0,
+			"goodsInfo":"华为 HUAWEI | Mate8 4G手机双卡双待全网通高配（4GRAM+64GROM）2",
+			"nums":"30504587130",
+			"joinNum":10,
+			"isLottery":0,
+			"needAll":6420,
+			"needSurplus":6420,
+			"getter":"肯定中中中",
+			"getterJoin":20,
+			"isHis":0,
+			"goodsNextId":10
+		},{
+			"goodsId":3,
+			"goodsImg":"http://placehold.it/92x92",
+			"goodsType":1,
+			"goodsInfo":"华为 HUAWEI | Mate8 4G手机双卡双待全网通高配（4GRAM+64GROM）3",
+			"nums":"30504587132",
+			"joinNum":15,
+			"isLottery":1,
+			"needAll":6420,
+			"needSurplus":6420,
+			"getter":"哈哈哈中了",
+			"getterJoin":30,
+			"isHis":1,
+			"goodsNextId":10
+		}],
+		"lucky_record":[{
+			"goodsId":1,
+			"goodsImg":"http://placehold.it/92x92",
+			"goodsInfo":"华为 HUAWEI | Mate8 4G手机双卡双待全网通高配（4GRAM+64GROM）3",
+			"nums":"30504587128",
+			"joinNum":15,
+			"isLottery":1,
+			"needAll":6420,
+			"needSurplus":6420,
+			"getter":"哈哈哈中了",
+			"getterJoin":30,
+			"isHis":1,
+			"goodsNextId":10
+		},{
+			"goodsId":2,
+			"goodsImg":"http://placehold.it/92x92",
+			"goodsInfo":"华为 HUAWEI | Mate8 4G手机双卡双待全网通高配（4GRAM+64GROM）3",
+			"nums":"30504587130",
+			"joinNum":20,
+			"isLottery":1,
+			"needAll":6420,
+			"needSurplus":6420,
+			"getter":"哈哈哈中了",
+			"getterJoin":30,
+			"isHis":1,
+			"goodsNextId":10
+		},{
+			"goodsId":3,
+			"goodsImg":"http://placehold.it/92x92",
+			"goodsInfo":"华为 HUAWEI | Mate8 4G手机双卡双待全网通高配（4GRAM+64GROM）3",
+			"nums":"30504587132",
+			"joinNum":30,
+			"isLottery":1,
+			"needAll":6420,
+			"needSurplus":6420,
+			"getter":"哈哈哈中了",
+			"getterJoin":30,
+			"isHis":1,
+			"goodsNextId":10
+		}],
+		"share_record":[{
+			"shareId":1,
+			"isToday":1,
+			"dateMonth":8,
+			"dateDay":18,
+			"shareTitle":"第一次晒单记录",
+			"shareGoodsInfo":"百草味2包装||白芝麻猪肉脯180g...",
+			"nums":"302791645",
+			"shareTxt":"终于到手了，感谢一元夺宝，让我有了装逼的机会，不说了，真是高端大气上档次！",
+			"shareImgList":["http://placehold.it/86x86","http://placehold.it/86x86","http://placehold.it/86x86","http://placehold.it/86x86"],
+			"isPraise":0,
+			"praiseNum":5
+		},{
+			"shareId":2,
+			"isToday":0,
+			"dateMonth":5,
+			"dateDay":18,
+			"shareTitle":"这是一个分享的标题",
+			"shareGoodsInfo":"百草味2包装sdsd||白芝麻猪肉脯180g...",
+			"nums":"302791650",
+			"shareTxt":"终于到手了，感谢一元夺宝，让我有了装逼的机会，不说了，真是高端大气上档次！",
+			"shareImgList":["http://placehold.it/86x86","http://placehold.it/86x86","http://placehold.it/86x86"],
+			"isPraise":1,
+			"praiseNum":10
+		}]
+	}
+}

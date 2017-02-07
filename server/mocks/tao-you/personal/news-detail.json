@@ -1,0 +1,26 @@
+/**
+ * [淘游助手] 游戏资讯详细详细接口
+ *
+ * @url /tao_you/news_detail
+ *
+ * 参数说明：
+ *
+ * id: 新闻ID
+ * title: 游戏名
+ * author: 作者or来源
+ * imgUrl: 图片地址
+ * content: 新闻内容
+ * publishTime: 发布时间
+ */
+
+{
+  "code|1": [10000],
+  "result": {
+    "id|+1": 1,
+    "title|2": "@ctitle",
+    "author": "@ctitle",
+    "imgUrl": "@image(120x120)",
+    "content|5": "@cparagraph",
+    "publishTime": "@date('yyyy-mm-dd HH:mm')"
+  }
+}

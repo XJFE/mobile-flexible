@@ -1,0 +1,24 @@
+/**
+ * [一元购] 购买商品 author: dreamapple
+ *
+ * @url /create_goods_buy
+ *
+ * 请求参数说明：
+ *
+ * 返还的数据
+ * status: 表示发表状态
+ * msg: 成功失败后返回的信息
+ * goodsTermId: 表示商品的期号
+ * words: 表示用户发表的言论
+ * shareImgList: 图片列表
+ * imgUrl: 表示图片的路径
+ *
+ */
+
+{
+  "code":10000,
+  "result":{
+    "status": 1,
+    "msg":"发表成功"
+  }
+}

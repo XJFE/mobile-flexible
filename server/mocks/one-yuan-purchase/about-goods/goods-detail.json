@@ -1,0 +1,76 @@
+/**
+ * [一元购] 每一个商品的详情 author: dreamapple
+ *
+ * @url /goods_detail
+ *
+ * 请求参数说明：
+ * id: 商品的期号
+ *
+ * 返还的数据
+ * introImg: 表示商品的一些列的介绍图
+ * imgUrl: 表示商品图片的地址
+ * goodsStatus: 表示此商品的状态 0->为揭晓 1->已揭晓
+ * term: 商品的第几期
+ * goodsName: 商品的名称
+ * termNo: 商品期数号码
+ * goodsIntro: 商品的介绍...
+ * totalNum: 总共需要参与多少人
+ * leftNum: 商品还需要多少人参与
+ * luckNum: 中奖号码
+ * luckSubarea: 中奖的区域
+ * luckPerson: 中奖人(对象)
+ * name: 中奖人名字
+ * luckUserId: 中奖用户ID
+ * luckTime: 中将事件
+ * headPic: 中奖用户头像
+ * totalPerson: 总共参与的有多少人
+ * myStatus: 我的参与状态 0->未参与; 1->参与
+ * myDetail: 我的参与详情(对象)
+ * times: 参与了几次
+ * nums: 购买的号码(数组)
+ * userId: 当前用户的Id
+ * beginTime: 活动的开始时间
+ * isExpire: 此商品是否已过期
+ * subarea: 分区的购买状态
+ * eachSubareaNum: 每一个分区的号码个数
+ *
+ */
+
+{
+  "code":10000,
+  "result":{
+    "introImg|3-5": [
+      {
+        "imgUrl": "/static/images/slider-1.jpg"
+      }
+    ],
+    "goodsStatus": 2,
+    "openTime":10,
+    "term": 23,
+    "goodsName":"三星65英寸智能电视三星65英寸智能电视",
+    "termNo":3456,
+    "goodsIntro":"xxxxxxxx",
+    "totalNum":345,
+    "leftNum":100,
+    "luckNum": "6000000345",
+    "luckSubarea":8,
+    "luckPerson": {
+      "name":"xxx",
+      "luckUserId": "34122222222",
+      "luckTime": "2016-08-03 16:54:00.000",
+      "headPic": "xxx",
+      "totalPerson": 33
+    },
+    "myStatus": 0,
+    "myDetail": {
+      "times": 3,
+      "nums": [10068152, 10068234, 898012],
+      "userId": "341222222333"
+    },
+    "beginTime": "2016-08-16 10:21:39",
+
+    "isExpire":0,
+    "subarea":[0, 1, 0, 1, 1, 1, 1, 0],
+    "eachSubareaNum": 10
+  }
+}

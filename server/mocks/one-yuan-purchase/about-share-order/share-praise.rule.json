@@ -1,0 +1,18 @@
+/**
+ * 点赞的请求接口
+ *
+ * @url /share_praise
+ *
+ * 请求参数：
+ * shareID: 这条晒单分享的id int
+ * type: 是点赞还是取消点赞的操作0取消点赞 1点赞 int
+ *
+ * 返回结果：
+ * praiseNum: 返回的点赞数量
+ */
+{
+	"code":10000,
+	"result":{
+		"praiseNum":20
+	}
+}

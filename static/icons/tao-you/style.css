@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('fonts/icons.eot?h1ncoi');
+  src:  url('fonts/icons.eot?h1ncoi#iefix') format('embedded-opentype'),
+    url('fonts/icons.ttf?h1ncoi') format('truetype'),
+    url('fonts/icons.woff?h1ncoi') format('woff'),
+    url('fonts/icons.svg?h1ncoi#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-up:before {
+  content: "\1f5fc";
+}
+.icon-game:before {
+  content: "\1f36e";
+}
+.icon-funnel:before {
+  content: "\1f359";
+}
+.icon-e-bank:before {
+  content: "\1f4b2";
+}
+.icon-xiaozhu:before {
+  content: "\1f4b9";
+}
+.icon-xiaozhu2:before {
+  content: "\1f30a";
+}
+.icon-usage:before {
+  content: "\1f33e";
+}
+.icon-myself2:before {
+  content: "\1f342";
+}
+.icon-home2:before {
+  content: "\e917";
+}
+.icon-arrow-left:before {
+  content: "\1f33c";
+}
+.icon-notice2:before {
+  content: "\1f33d";
+}
+.icon-gift:before {
+  content: "\1f33f";
+}
+.icon-tao-home:before {
+  content: "\1f341";
+}
+.icon-myself:before {
+  content: "\e907";
+}
+.icon-game-old:before {
+  content: "\e908";
+}
+.icon-game-h:before {
+  content: "\e909";
+}
+.icon-arrow-right:before {
+  content: "\e90a";
+}
+.icon-cut-down:before {
+  content: "\e90b";
+}
+.icon-funnel-old:before {
+  content: "\e90c";
+}
+.icon-arrow-down:before {
+  content: "\e90d";
+}
+.icon-by-alipay:before {
+  content: "\e90e";
+}
+.icon-by-wechat:before {
+  content: "\e90f";
+}
+.icon-by-coin:before {
+  content: "\e910";
+}
+.icon-pay-success:before {
+  content: "\e911";
+}
+.icon-checked:before {
+  content: "\e912";
+}
+.icon-share:before {
+  content: "\e913";
+}
+.icon-loading:before {
+  content: "\e914";
+}
+.icon-cancel:before {
+  content: "\e915";
+}
+.icon-pay-fail:before {
+  content: "\e916";
+}
+.icon-edit:before {
+  content: "\e918";
+}
+.icon-my-game:before {
+  content: "\e919";
+}
+.icon-shopping-car:before {
+  content: "\e91a";
+}
+.icon-service:before {
+  content: "\e91b";
+}
+.icon-coupon:before {
+  content: "\e91c";
+}
+.icon-gift2:before {
+  content: "\e91d";
+}
+.icon-one-buy:before {
+  content: "\e91e";
+}
+.icon-phone:before {
+  content: "\e91f";
+}
+

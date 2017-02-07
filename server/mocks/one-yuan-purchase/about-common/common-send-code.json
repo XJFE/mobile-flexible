@@ -1,0 +1,20 @@
+/**
+ * [一元购] 给指定的手机发送验证码 author: dreamapple
+ *
+ * @url /common_send_code
+ *
+ * 请求参数说明：
+ * phone: 用户的手机号码
+ *
+ * 返还的数据
+ * phone: 请求查询的手机号码
+ * isDone: 是否发送成功 0:失败 1:成功
+ */
+
+{
+  "code": 10000,
+  "result": {
+    "isDone": 1
+  }
+}
+

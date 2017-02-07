@@ -1,0 +1,48 @@
+/**
+ * 获取用户信息接口
+ *
+ * @url /personal/personal_home_data
+ *
+ * 返回结果：
+ */
+
+{
+  "result": {
+    "info": {
+      "avatar": "http:\/\/image.lly800.com\/user\/avatar.png",
+      "isCanUpdateName": 1,
+      "username": "13738015054",
+      "userId": "4",
+      "bindPhone": 13738015054,
+      "isShowSoreExchange": 0,
+      "taoBi": 0,
+      "taoDou": "8"
+    },
+    "list": {
+      "isLast": 0,
+      "page": 2,
+      "list": [
+        {
+          "userId": "4",
+          "nums": "20000011",
+          "joinNum": 1,
+          "isLottery": 1,
+          "needAll": "36",
+          "isVirtual": 0,
+          "needSurplus": 35,
+          "goodsId": "200",
+          "numberID": "28",
+          "goodsType": 0,
+          "getter": "xxx",
+          "getterJoin": 0,
+          "goodsImg": "http:\/\/image.lly800.com\/goods\/20161018\/1476726017957012.jpg",
+          "goodsInfo": "\u79fb\u52a830\u5143\u5145\u503c\u5361",
+          "status": 1,
+          "isHis": 1,
+          "goodsNextId": "28"
+        }
+      ]
+    }
+  },
+  "code": 10000
+}

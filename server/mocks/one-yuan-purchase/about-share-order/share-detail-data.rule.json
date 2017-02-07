@@ -1,0 +1,37 @@
+/**
+ * 晒单分享详情数据接口
+ *
+ * @url /share_detail_data
+ *
+ * 返回结果：
+ * 说明: 晒单分享详情数据接口
+ * shareTitle: 分享标题 str
+ * shareUsername: 获奖用户名称 str
+ * shareDate: 分享时间 str
+ * goodsInfo: 晒单的商品信息 str
+ * nums: 期号 str
+ * joinNum: 参与了多少次 int
+ * luckyNumber: 幸运号码 str
+ * lotteryDate: 揭晓时间 str
+ * shareTxt: 分享的文案内容
+ * shareImgList: 分享的图片列表 arry
+ * isPraise: 当前人员是否点过赞 0没有 1点过  int
+ * praiseNum: 点赞数量 int
+ */
+{
+	"code":10000,
+	"result":{
+		"shareTitle":"一元夺宝给了个意外的惊喜",
+		"shareUsername":"获奖用户名",
+		"shareDate":"2016-08-18 17:05:23",
+		"goodsInfo":"商品信息：百草味 2包装 | |白芝麻猪肉脯180g 靖江...",
+		"nums":"302791645",
+		"joinNum":20,
+		"luckyNumber":"600000355",
+		"lotteryDate":"2016-08-18 12:00:00.000",
+		"shareTxt":"终于到手了，感谢一元夺宝，让我有了装逼的机会，不说了，真是高端大气上档次！",
+		"shareImgList":["http://placehold.it/328x210","http://placehold.it/228x210","http://placehold.it/80x250"],
+		"isPraise":1,
+		"praiseNum":10
+	}
+}

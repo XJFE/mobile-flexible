@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>T&T</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="/static/css/reset.css">
+  <link rel="stylesheet" href="/static/css/common.css">
+  <script>
+    window.onbeforeunload = function() {
+      localStorage.clear();
+    };
+  </script>
+</head>
+<body>
+<section id="app"></section>
+
+
+<!-- built files will be auto injected -->
+<!-- 调试工具 -->
+<!--<script src="/static/lib/vconsole.min.js"></script>-->
+<!-- 我们应用需要的库 -->
+<!--<script src="/static/lib/jquery.min.js"></script>-->
+<!--<script src="/static/lib/atomic.min.js"></script>-->
+<script src="/static/lib/flow.min.js"></script>
+<script src="/static/lib/zepto.min.js"></script>
+<script src="/static/lib/fancySelect.js"></script>
+<script src="/static/lib/noframework.waypoints.min.js"></script>
+<script src="/static/lib/hammer.min.js"></script>
+<script src="/static/lib/vue.js"></script>
+<script src="/static/lib/vue-router.js"></script>
+<script src="/static/lib/vue-resource.js"></script>
+<script src="/static/lib/vue-touch.min.js"></script>
+<!-- 一些附加的库 -->
+<script src="/static/lib/layer.js"></script>
+<script src="/static/lib/utils.js"></script>
+<script src="/static/lib/LArea/LArea.js"></script>
+
+<!--
+Vue 错误调试扩展
+使用
+Vue.silents = [ // 静默列表，不显示的错误关键词写到这就好。
+  'Error when evaluating expression',
+];
+
+Vue.warn = true; // 开启关闭本扩展。
+-->
+<script src="/static/lib/vue.warn.js"></script>
+<script>
+  Vue.silents = [ // 静默列表，不显示的错误关键词写到这就好。
+    'Error when evaluating expression' // 不显示插值类错误，例如 {{obj.foo.bar}} 报错类型
+  ];
+</script>
+<!-- 流量统计 -->
+<!-- baidu -->
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?bd58d0ab911e25d4be164442e6348990";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+<!-- baidu -->
+</body>
+</html>

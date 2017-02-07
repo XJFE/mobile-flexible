@@ -1,0 +1,24 @@
+/**
+ * [淘游助手] 游戏资讯详细-评论列表接口
+ *
+ * @url /tao_you/news_comment_list
+ *
+ * 参数说明：
+ *
+ * id: 评论ID
+ * name: 评论者名字
+ * imgUrl: 头像地址
+ * content: 评论内容
+ * publishTime: 发布时间
+ */
+
+{
+  "code|1": [10000],
+  "result|4": [{
+    "id|+1": 1,
+    "name": "@ctitle",
+    "avatarPath": "@image(120x120)",
+    "content": "@cparagraph",
+    "publishTime": "@date('yyyy-mm-dd HH:mm')"
+  }]
+}

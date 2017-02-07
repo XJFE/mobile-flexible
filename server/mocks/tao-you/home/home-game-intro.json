@@ -1,0 +1,30 @@
+/**
+ * [淘游助手] 首页的所有游戏数据要分页 author: dreamapple
+ *
+ * @url /tao_you/home_game_intro
+ *
+ * 参数说明：
+ *
+ * gameID: 表示游戏的ID
+ * imgUrl: 表示游戏的一些截图的图片地址
+ * gameName: 表示游戏的名字
+ * gameIcon: 表示游戏的图标
+ * gameBackgroundUrl: 表示游戏显示的背景图
+ * gameIntro: 表示游戏的介绍
+ */
+
+{
+  "code": 10000,
+  "result": {
+    "gameID":"@integer",
+    "gameName": "游戏@cname",
+    "gameIcon": "@image",
+    "gameBackgroundUrl": "@image",
+    "gameIntro|100": "@cname",
+    "carousel|3-6": [
+      {
+        "imgUrl": "@image"
+      }
+    ]
+  }
+}

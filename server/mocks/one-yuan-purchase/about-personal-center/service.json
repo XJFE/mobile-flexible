@@ -1,0 +1,39 @@
+/**
+ * 客服接口
+ *
+ * @url /service
+ *
+ * 返回结果：
+ *
+ * list
+ * 字段说明: 客服列表
+ * avator: 客服头像地址 str
+ * qq: 客服qq号码 str
+ * name: 客服名称 str
+ * id: 客服id
+ */
+{
+  "code":10000,
+  "result":{
+    "list":[
+      {
+        "avator":"/static/images/s-head.jpg",
+        "qq":"888888",
+        "name":"小二",
+        "id":"5"
+      },
+      {
+        "avator":"/static/images/s-head.jpg",
+        "qq":"888889",
+        "name":"小四",
+        "id":"6"
+      },
+      {
+        "avator":"/static/images/s-head.jpg",
+        "qq":"888887",
+        "name":"小五",
+        "id":"7"
+      }
+    ]
+  }
+}

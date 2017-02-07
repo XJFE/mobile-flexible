@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('fonts/icons.eot?mvbvud');
+  src:  url('fonts/icons.eot?mvbvud#iefix') format('embedded-opentype'),
+    url('fonts/icons.ttf?mvbvud') format('truetype'),
+    url('fonts/icons.woff?mvbvud') format('woff'),
+    url('fonts/icons.svg?mvbvud#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-1:before {
+  content: "\e9071";
+}
+.icon-2:before {
+  content: "\e9081";
+}
+.icon-3:before {
+  content: "\e9091";
+}
+.icon-4:before {
+  content: "\e90a1";
+}
+.icon-h1:before {
+  content: "\e90b1";
+}
+.icon-h2:before {
+  content: "\e90c1";
+}
+.icon-h3:before {
+  content: "\e90d1";
+}
+.icon-h4:before {
+  content: "\e90e1";
+}
+.icon-h5:before {
+  content: "\e90f1";
+}
+.icon-h6:before {
+  content: "\e9101";
+}
+.icon-h7:before {
+  content: "\e9111";
+}
+.icon-h8:before {
+  content: "\e911e";
+}
+.icon-h9:before {
+  content: "\e9131";
+}
+.icon-goback:before {
+  content: "\1f3bc";
+}
+.icon-home:before {
+  content: "\e906";
+}
+.icon-cus:before {
+  content: "\e905";
+}
+.icon-warning:before {
+  content: "\e904";
+}
+.icon-star:before {
+  content: "\e903";
+}
+.icon-heart:before {
+  content: "\e900";
+}
+.icon-heart1:before {
+  content: "\e901";
+}
+.icon-cuxiaobg:before {
+  content: "\e902";
+}
+.icon-alarm:before {
+  content: "\e855";
+}
+.icon-check:before {
+  content: "\e5ca";
+}
+.icon-mode_edit:before {
+  content: "\e254";
+}
+.icon-help_outline:before {
+  content: "\e8fd";
+}
+.icon-highlight_off:before {
+  content: "\e888";
+}
+.icon-info_outline:before {
+  content: "\e88f";
+}
+.icon-keyboard_arrow_down:before {
+  content: "\e313";
+}
+.icon-keyboard_arrow_left:before {
+  content: "\e314";
+}
+.icon-guide:before {
+  content: "\e315";
+}
+.icon-keyboard_arrow_up:before {
+  content: "\e316";
+}
+.icon-person_outline:before {
+  content: "\e7ff";
+}
+.icon-top:before {
+  content: "\e255";
+}
+.icon-refresh:before {
+  content: "\e5d5";
+}
+.icon-settings:before {
+  content: "\e8b8";
+}
+.icon-share:before {
+  content: "\e80d";
+}
+.icon-notice:before {
+  content: "\e04d";
+}
+

@@ -1,0 +1,20 @@
+/**
+ * [一元购] 用户登录 author: dreamapple
+ *
+ * @url /common_user_login
+ *
+ * 请求参数说明：
+ * phone: 用户的手机号码
+ * password: 用户的密码
+ *
+ * 返还的数据
+ * isSuccess: 是否登录成功 0:失败 1:成功
+ *
+ */
+
+{
+  "code": 10000,
+  "result": {
+    "isSuccess": 1
+  }
+}

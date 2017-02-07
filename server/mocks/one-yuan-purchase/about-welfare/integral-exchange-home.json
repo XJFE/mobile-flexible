@@ -1,0 +1,30 @@
+/**
+ * [一元购] 积分兑换首页 author: dreamapple
+ *
+ * @url /integral_exchange_home
+ *
+ * 请求参数说明：
+ *
+ * 返还的数据
+ * score: 我的积分
+ * num: 兑换多少淘币
+ * left: 剩余多少
+ * needScore: 需要多少积分
+ * uniqueId: 这种兑换的唯一ID
+ *
+ */
+
+{
+  "code":10000,
+  "result":{
+    "score": 34443,
+    "taoBiList|6-10": [
+      {
+        "num": 100,
+        "left": 222,
+        "needScore": 1000,
+        "uniqueId": 23
+      }
+    ]
+  }
+}

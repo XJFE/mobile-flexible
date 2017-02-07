@@ -1,0 +1,79 @@
+/**
+ * [一元购] 用户淘币充值明细接口 author: z
+ *
+ * @url /recharge_details
+ *
+ * 请求参数说明：需要分页
+ * page: 请求的页码,哪一页
+ *
+ * 返还的数据
+ * 到最后一页时，加个isLast=1 ，告知到最后一页了
+ * list: 列表
+ * desc: 使用描述
+ * money: 获取淘币数
+ * publishTime: 充值时间
+ * count: 赠送淘豆数量
+ */
+
+{
+  "code":10000,
+  "isLast":"",
+  "result":{
+    "list": [
+      {
+        "desc":"支付宝充值￥100000",
+        "money":"10000",
+        "publishTime": "2016/12/20",
+        "count": 1000
+      },
+      {
+        "desc":"网银充值￥1000",
+        "money":"10000",
+        "publishTime": "2016/12/20",
+        "count": 1000
+      },
+      {
+        "desc":"微信充值￥200",
+        "money":"1000000",
+        "publishTime": "2016/12/20",
+        "count": 1000
+      },
+      {
+        "desc":"支付宝充值￥100",
+        "money":"10000",
+        "publishTime": "2016/12/20",
+        "count": 1000
+      },
+      {
+        "desc":"支付宝充值￥100",
+        "money":"100000000000000",
+        "publishTime": "2016/12/20",
+        "count": 1000
+      },
+      {
+        "desc":"支付宝充值￥100",
+        "money":"10000",
+        "publishTime": "2016/12/20",
+        "count": 1000
+      },
+      {
+        "desc":"支付宝充值￥100",
+        "money":"10000",
+        "publishTime": "2016/12/20",
+        "count": 1000
+      },
+      {
+        "desc":"支付宝充值￥100",
+        "money":"10000",
+        "publishTime": "2016/12/20",
+        "count": 1000
+      },
+      {
+        "desc":"支付宝充值￥100",
+        "money":"10000",
+        "publishTime": "2016/12/20",
+        "count": 1000
+      }
+    ]
+  }
+}

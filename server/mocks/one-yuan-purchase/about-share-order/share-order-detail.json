@@ -1,0 +1,51 @@
+/**
+ * [一元购] 晒单详情 author: dreamapple
+ *
+ * @url /share_order_detail
+ *
+ * 请求参数说明：
+ * goodsTermId: 商品的期号
+ *
+ * 返还的数据
+ * title: 晒单的标题
+ * username: 用户名
+ * shareDate: 晒单日期
+ * info: 商品详情
+ * termNo: 商品的期号
+ * participateTimes: 商品的参加次数
+ * luckyNo: 幸运的号码
+ * luckyTime: 揭晓奖品的时间
+ * words: 用户晒单说的话
+ * shareImg: 晒单的图片集合
+ * imgUrl: 图片的地址
+ * like: 点赞的人数
+ * curLikeStatus: 当前用户是否是喜欢状态
+ *
+ */
+
+{
+  "code":10000,
+  "result":{
+    "headerMsg": {
+      "title": "一元夺宝给了个意外的惊喜",
+      "username":"用户名",
+      "shareDate": "2016-08-02 17:05:23"
+    },
+    "goodsMsg":{
+      "info": "百草味 2包装 好开心你妹呀好开心你妹呀好开心你妹呀好开心你妹呀好开心你妹呀好开心你妹呀",
+      "termNo":"3000000234",
+      "participateTimes":"23",
+      "luckyNo":"600000000341",
+      "luckyTime":"2016-08-10 16:54:00.000"
+    },
+    "userShare":{
+      "words":"终于到手了,好开心你好开心你妹呀好开心你妹呀好开心你妹呀好开心你妹呀好开心你妹呀妹呀",
+      "shareImg": [
+        {"imgUrl": "https://placeholdit.imgix.net/~text?txtsize=56&txt=600%C3%97600&w=600&h=600"},
+        {"imgUrl": "https://placeholdit.imgix.net/~text?txtsize=56&txt=600%C3%97600&w=600&h=600"}
+      ]
+    },
+    "like": 345,
+    "curLikeStatus": 0
+  }
+}

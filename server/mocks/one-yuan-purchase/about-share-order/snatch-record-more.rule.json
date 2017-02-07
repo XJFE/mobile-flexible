@@ -1,0 +1,73 @@
+/**
+ * 夺宝记录下拉加载更多数据接口
+ *
+ * @url /snatch_record_more
+ *
+ * 请求参数：
+ * page: 请求第几页的数据
+ *
+ * 返回结果：
+ * is_last:是否是最后一页 0不是 1是 int
+ * next_page:下一页页码 int
+ *
+ * snatch_record
+ * 说明:夺宝记录数据列,
+ * goods_id: 商品id int
+ * goods_img: 商品图片地址 str
+ * nums: 期号 str
+ * join_num: 目前参与人次 int
+ * is_lottery: 这个人是否中奖0没有，1中了  int
+ * need_all: 总共需要多少人次 int
+ * need_surplus: 还剩余多少人次 int
+ * getter: 获奖者用户名称 str
+ * getter_join: 该获奖者参与了多少次 int
+ * is_his: 是否是这个人中奖了
+ * goods_next_id: 下一期的商品id
+ */
+{
+	"code":10000,
+	"result":{
+		"snatch_record":[{
+			"goods_id":1,
+			"goods_img":"http://placehold.it/92x92",
+			"goods_info":"华为 HUAWEI | Mate8 4G手机双卡双待全网通高配（4GRAM+64GROM）",
+			"nums":"30504587128",
+			"join_num":5,
+			"is_lottery":0,
+			"need_all":6420,
+			"need_surplus":4320,
+			"getter":"没有中",
+			"getter_join":0,
+			"is_his":1,
+			"goods_next_id":10
+		},{
+			"goods_id":2,
+			"goods_img":"http://placehold.it/92x92",
+			"goods_info":"华为 HUAWEI | Mate8 4G手机双卡双待全网通高配（4GRAM+64GROM）2",
+			"nums":"30504587130",
+			"join_num":10,
+			"is_lottery":1,
+			"need_all":6420,
+			"need_surplus":6420,
+			"getter":"肯定中中中",
+			"getter_join":20,
+			"is_his":1,
+			"goods_next_id":10
+		},{
+			"goods_id":3,
+			"goods_img":"http://placehold.it/92x92",
+			"goods_info":"华为 HUAWEI | Mate8 4G手机双卡双待全网通高配（4GRAM+64GROM）3",
+			"nums":"30504587132",
+			"join_num":15,
+			"is_lottery":1,
+			"need_all":6420,
+			"need_surplus":6420,
+			"getter":"哈哈哈中了",
+			"getter_join":30,
+			"is_his":0,
+			"goods_next_id":10
+		}],
+		"is_last":0,
+		"next_page":1
+	}
+}

@@ -1,0 +1,21 @@
+/**
+ * 获取用户信息接口
+ *
+ * @url /get_userinfo
+ *
+ * 返回结果：
+ * avatar: 用户头像地址 str,
+ * userId: 用户id str,
+ * username: 用户昵称 str,
+ * bindPhone: 绑定的手机号码 如果没有绑定就返回空字符串（不是null） str
+ */
+{
+	"code":10000,
+	"result":{
+		"avatar":"http://placehold.it/40x40",
+		"userId":"258624",
+		"username":"用户名称",
+		"bindPhone":"18368835082",
+		"isCanUpdateName":1
+	}
+}

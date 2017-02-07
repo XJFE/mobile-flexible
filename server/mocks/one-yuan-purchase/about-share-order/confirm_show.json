@@ -1,0 +1,43 @@
+/**
+ * [一元购] 是否展示提示(confirm-show) author: dreamapple
+ *
+ * @url /confirm_show
+ *
+ * 请求参数说明：
+ *
+ * 返还的数据
+ *
+ * title: 加多宝 凉茶 310mlx12罐 整箱装
+ * joinNum: 1
+ * date: 08-29 12:11
+ * image: 商品图片
+ * virtual: 0
+ * transportNumber: 0
+ * status: 4
+ * goodsType: 0
+ * isShow: 1
+ * nextID: 443
+ * cardNumber: 1233322787878
+ * cardSecret: asd809182HHagsdah
+ * lastDate: 1999-9-9 19:19
+ *
+ */
+
+{
+  "code": 10000,
+  "result": {
+    "title": "加多宝 凉茶 310mlx12罐 整箱装",
+    "joinNum": "1",
+    "date": "08-29 12:11",
+    "image": "",
+    "virtual": 1,
+    "transportNumber": "0",
+    "status": "4",
+    "goodsType": 0,
+    "isShow": "1",
+    "nextID": 443,
+    "cardNumber":1233322787878,
+    "cardSecret":"asd809182HHagsdah",
+    "lastDate":"1999-9-9 19:19"
+  }
+}

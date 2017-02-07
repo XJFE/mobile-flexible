@@ -1,0 +1,17 @@
+/**
+ * [一元购] 积分兑换 author: dreamapple
+ *
+ * @url /integral_exchange_action
+ *
+ * 请求参数说明：
+ * id: 那种兑换方式的ID
+ *
+ * 返还的数据
+ *
+ */
+
+{
+  "code":10000,
+  "result":{
+  }
+}

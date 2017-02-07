@@ -1,0 +1,33 @@
+/**
+ * [淘游助手] 获取用户信息数据接口
+ * 个人中心首页、我的淘豆、我的淘币等页面中使用
+ *
+ * @url /tao_you/get_user_info
+ *
+ * 参数说明：
+ *
+ * user: 用户信息
+ *
+ * userId: 用户ID
+ * username: 用户名称
+ * avatar: 头像地址
+ * taobiAmount: 券名字
+ * bindPhone: 绑定手机
+ * taobiAmount: 淘币数量
+ * taodouAmount: 淘豆数量
+ * isCanUpdateName: 是否可以修改昵称
+ * isShowSoreExchange
+ */
+{
+  "code|1": [10000] ,
+  "result": {
+    "userId": "34325435",
+    "username": "哼哩个哩哩",
+    "avatar": "http://dummyimage.com/120x120",
+    "bindPhone": "",
+    "taoBi": "500",
+    "taoDou": "1200",
+    "isCanUpdateName": 1,
+    "isShowSoreExchange": 0
+  }
+}

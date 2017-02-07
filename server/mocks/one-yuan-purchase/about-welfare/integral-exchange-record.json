@@ -1,0 +1,25 @@
+/**
+ * [一元购] 积分兑换记录 author: dreamapple
+ *
+ * @url /integral_exchange_record
+ *
+ * 请求参数说明：
+ * page: 请求的页码
+ *
+ * 返还的数据
+ * num: 兑换了多少淘币
+ * date: 兑换的日期
+ * costScore: 兑换花费的积分
+ *
+ */
+
+{
+  "code":10000,
+  "result|6-10":[
+    {
+      "num": 10,
+      "date": "2016-6-6 12:12",
+      "costScore": 123321
+    }
+  ]
+}

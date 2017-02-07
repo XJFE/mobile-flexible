@@ -1,0 +1,28 @@
+/**
+ * [淘游助手] 游戏列表数据接口
+ * 首页、我的游戏页面、我的淘游页面中使用、需要分页
+ *
+ * @url /tao_you/game_list
+ *
+ * 参数说明：
+ *
+ * result: 游戏列表
+ * id: 游戏ID
+ * name: 游戏名
+ * picPath: 缩略图
+ * linkUrl: 链接地址
+ * publishTime: 发布时间
+ */
+{
+  "code": 10000,
+  "result|8": [
+    {
+      "id|+1": 1,
+      "field|1": ["1", "2"],
+      "name": "@ctitle",
+      "imgUrl": "@image(120x120)",
+      "link": "/game-intro/@id",
+      "publishTime": "@date"
+    }
+  ]
+}

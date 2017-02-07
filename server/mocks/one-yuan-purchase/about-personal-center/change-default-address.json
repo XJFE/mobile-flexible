@@ -1,0 +1,14 @@
+/**
+ * 修改默认地址接口
+ *
+ * @url /change-default-address
+ *
+ * 返回结果：
+ * success: 是否修改成功 boolean
+ */
+{
+  "code":10000,
+  "result":{
+    "success":true
+  }
+}

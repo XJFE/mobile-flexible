@@ -1,0 +1,35 @@
+/**
+ * [一元购] 晒单详情的点赞 author: dreamapple
+ *
+ * @url /share_order_detail_like
+ *
+ * 请求参数说明：
+ * goodsTermId: 商品的期号
+ * action: 是否喜欢
+ *
+ * 返还的数据
+ * status: 1=>表示成功, 0=>表示失败
+ * like: 点赞的人数
+ * action: like =>表示喜欢 dislike=>表示不喜欢
+ *
+ */
+
+{
+  "接口说明":"晒单详情的点赞 罗鹏展",
+  "code":10000,
+  "result":{
+    "status": 1,
+    "like": 3459
+  },
+  "_request":{
+    "说明":"请求参数说明",
+    "goodsTermId":"商品的期号",
+    "action":"是否喜欢"
+  },
+  "_comment":{
+    "说明":"返回的接口",
+    "status":"1=>表示成功, 0=>表示失败",
+    "like":"点赞的人数",
+    "action":"like =>表示喜欢 dislike=>表示不喜欢"
+  }
+}

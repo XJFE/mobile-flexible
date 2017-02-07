@@ -1,0 +1,167 @@
+/**
+ * 个人中心首页数据获取接口
+ *
+ * @url /personal_home_data
+ *
+ * 返回结果：
+ * userInfo
+ * 说明: 用户信息,
+ * avatar: 用户头像地址 str,
+ * username: 用户名称 str,
+ * userId: 用户id str||int,
+ * taoBi: 当前该用户的淘币数量 str,
+ * taoJf: 当前该用户的淘积分数量 str
+ *
+ * joinRecord
+ * 说明：参与记录
+ * goodsId: 商品id int,
+ * goodsImg: 商品图片地址 str,
+ * goodsType: 0普通商品  1分区购买商品  int,
+ * goodsInfo: 商品信息 str,
+ * isVirtual: 是否虚拟物品 0不是 1是 int,
+ * nums: 期号 str,
+ * joinNum: 参与期数 int,
+ * isLottery: 是否开奖 0未开奖 1已开奖 int,
+ * needAll: 总过需要多少参与量 int,
+ * needSurplus: 剩余多少参与量 int,
+ * getter: 获奖者用户名 str,
+ * isHis: 获奖者是否是当前这个人 0不是 1是 int
+ *
+ * luckyRecord
+ * 说明: 幸运记录,
+ * goodsId: 商品id int,
+ * goodsImg: 商品图片地址 str,
+ * goodsInfo: 商品信息 str,
+ * isVirtual: 是否虚拟物品 0不是 1是 int,
+ * nums: 期号 str,
+ * joinNum: 参与期数 int,
+ * isLottery: 是否开奖 0未开奖 1已开奖 int,
+ * needAll: 总过需要多少参与量 int,
+ * needSurplus: 剩余多少参与量 int,
+ * getter: 获奖者用户名 str,
+ * isHis: 获奖者是否是当前这个人 0不是 1是 int
+ *
+ * shareRecord
+ * 说明: 分享记录,
+ * shareId: 分享id int,
+ * avator: 分享者头像地址 str,
+ * userName: 用户名 str,
+ * shareTitle: 分享的标题 str,
+ * shareGoodsInfo: 分享的商品信息 str,
+ * nums: 期号 str,
+ * shareTxt: 分享的文案内容 str,
+ * shareImgList: 分享的图片地址列表 arry[str],
+ * shareDate: 分享的时间 str,
+ * isPraise: 是否点过赞 0没有 1有 int,
+ * praiseNum: 点赞数量 int
+ */
+{
+    "code": 10000,
+    "result": {
+        "info": {
+            "avatar": "http://image.tmeeyou.com/",
+            "isCanUpdateName": 0,
+            "username": "小丫小二郎",
+            "userId": "100218",
+            "bindPhone": 0,
+            "taoBi": "4590",
+            "taoDou": "0"
+        },
+        "list": {
+            "isLast": 0,
+            "page": 3,
+            "list": [
+                {
+                    "userId": "100218",
+                    "nums": "20100287",
+                    "joinNum": 10,
+                    "isLottery": 1,
+                    "needAll": "1000",
+                    "isVirtual": 0,
+                    "needSurplus": 0,
+                    "goodsId": "201",
+                    "numberID": "110853",
+                    "goodsType": 0,
+                    "getter": "天下一统",
+                    "getterJoin": 990,
+                    "goodsImg": "http://image.tmeeyou.com/goods/20161019/1476849709507643.jpg",
+                    "goodsInfo": "iPhone7 Plus128GB",
+                    "isHis": 0,
+                    "goodsNextId": "110864"
+                },
+                {
+                    "userId": "100218",
+                    "nums": "20000636",
+                    "joinNum": 30,
+                    "isLottery": 1,
+                    "needAll": "36",
+                    "isVirtual": 0,
+                    "needSurplus": 0,
+                    "goodsId": "200",
+                    "numberID": "110846",
+                    "goodsType": 0,
+                    "getter": "小丫小二郎",
+                    "getterJoin": 30,
+                    "goodsImg": "http://image.tmeeyou.com/goods/20161018/1476726017957012.jpg",
+                    "goodsInfo": "移动30元充值卡",
+                    "isHis": 1,
+                    "goodsNextId": "110866"
+                },
+                {
+                    "userId": "100218",
+                    "nums": "17100069",
+                    "joinNum": 7979,
+                    "isLottery": 1,
+                    "needAll": "8000",
+                    "isVirtual": 0,
+                    "needSurplus": 0,
+                    "goodsId": "171",
+                    "numberID": "110841",
+                    "goodsType": 0,
+                    "getter": "小丫小二郎",
+                    "getterJoin": 7979,
+                    "goodsImg": "http://image.tmeeyou.com/goods/20161019/1476849734103638.jpg",
+                    "goodsInfo": "iPhone7 128GB",
+                    "isHis": 1,
+                    "goodsNextId": "110859"
+                },
+                {
+                    "userId": "100218",
+                    "nums": "20000635",
+                    "joinNum": 36,
+                    "isLottery": 1,
+                    "needAll": "36",
+                    "isVirtual": 0,
+                    "needSurplus": 0,
+                    "goodsId": "200",
+                    "numberID": "110844",
+                    "goodsType": 0,
+                    "getter": "小丫小二郎",
+                    "getterJoin": 36,
+                    "goodsImg": "http://image.tmeeyou.com/goods/20161018/1476726017957012.jpg",
+                    "goodsInfo": "移动30元充值卡",
+                    "isHis": 1,
+                    "goodsNextId": "110866"
+                },
+                {
+                    "userId": "100218",
+                    "nums": "20000632",
+                    "joinNum": 36,
+                    "isLottery": 1,
+                    "needAll": "36",
+                    "isVirtual": 0,
+                    "needSurplus": 0,
+                    "goodsId": "200",
+                    "numberID": "110839",
+                    "goodsType": 0,
+                    "getter": "小丫小二郎",
+                    "getterJoin": 36,
+                    "goodsImg": "http://image.tmeeyou.com/goods/20161018/1476726017957012.jpg",
+                    "goodsInfo": "移动30元充值卡",
+                    "isHis": 1,
+                    "goodsNextId": "110866"
+                }
+            ]
+        }
+    }
+}
