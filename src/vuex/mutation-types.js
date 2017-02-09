@@ -20,3 +20,5 @@ export const UPDATE_HEADER_FLAG = 'UPDATE_HEADER_FLAG'; // 修改app头部是否
 
 // 获取渠道商的mID
 export const GET_USER_MID = 'GET_USER_MID';
+
+export const UPDATE_DIALOG_SHOW = 'UPDATE_DIALOG_SHOW';    // 显示/隐藏状态登录、注册弹框

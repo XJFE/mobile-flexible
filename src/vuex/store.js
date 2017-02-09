@@ -10,6 +10,7 @@ import demo from './modules/demo'
 import component from './modules/component'
 import UserInfo from './modules/user-info';
 import Header from './modules/header';
+import Dialog from './modules/user-action';
 
 //Vue.use(Vuex);
 
@@ -21,7 +22,8 @@ export default new Vuex.Store({
     pay,
     component,
     UserInfo,
-    Header
+    Header,
+    Dialog
   },
   strict: true
 })

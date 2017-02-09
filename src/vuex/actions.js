@@ -68,3 +68,8 @@ export const getHeaderFlag = function ({ dispatch, state }) {
       });
   }
 };
+
+// 登陆/注册/修改密码弹框控制
+export const updateDialogState = function ({ dispatch, state }, oState) {
+  dispatch(types.UPDATE_DIALOG_SHOW, oState);
+};

@@ -15,6 +15,9 @@
         <!-- demo -->
         <h1>Hello , World!</h1>
         <div class="selector">1</div>
+        <login></login>
+        <register></register>
+        <set-pwd></set-pwd>
     </section>
 </template>
 
@@ -22,8 +25,14 @@
     'use strict';
     import Vue from 'vue';
     import store from './vuex/store'
+    import Login from './components/account/login.commponent';
+    import Register from './components/account/register.commponent';
+    import SetPwd from './components/account/setPwd.commponent';
     export default {
         components: {
+          Login,
+          Register,
+          SetPwd
         },
         store,
         ready() {
