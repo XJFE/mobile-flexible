@@ -12,9 +12,6 @@
 <template>
     <section>
         <router-view></router-view>
-        <!-- demo -->
-        <h1>Hello , World!</h1>
-        <div class="selector">1</div>
         <login></login>
         <register></register>
         <set-pwd></set-pwd>
