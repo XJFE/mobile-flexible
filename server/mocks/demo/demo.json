@@ -1,0 +1,14 @@
+/**
+ * 这里用来作为接口的说明
+ *
+ * @url /test-demo
+ *
+ * 参数说明：
+ * isShow: 是否显示
+ */
+{
+  "code": 10000,
+  "result": {
+    "isShow": false
+  }
+}
